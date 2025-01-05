@@ -1,0 +1,16 @@
+{
+  "name": "Plan",
+  "version": "1.0.0",
+  "description": "Plan",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "body-parser": "^1.19.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veranstaltungsplanung</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Veranstaltungsplanung</h1>
+    <div id="livetickerSection">
+        <h2>Liveticker</h2>
+        <p id="livetickerMessage">Lädt...</p>
+    </div>
+    <div id="scheduleSection">
+        <h2>Zeitplan</h2>
+        <ul id="scheduleList"></ul>
+    </div>
+    <div id="loginSection">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Benutzername" required>
+            <input type="password" id="password" placeholder="Passwort" required>
+            <button type="submit">Einloggen</button>
+        </form>
+    </div>
+    <div id="adminSection" style="display: none;">
+        <h2>Admin-Bereich</h2>
+        <form id="activityForm">
+            <input type="text" id="day" placeholder="Tag (z.B. Tag 1)" required>
+            <input type="text" id="activity" placeholder="Aktivität" required>
+            <input type="time" id="startTime" required>
+            <input type="time" id="endTime" required>
+            <button type="submit">Hinzufügen</button>
+        </form>
+    </div>
+</body>
+</html>
